@@ -5,4 +5,4 @@
 - [x] **Chia sẻ trạng thái tra cứu:** Đồng bộ trạng thái tìm kiếm và category với URL query theo dạng `?q=...&cat=...` để chia sẻ kết quả; khôi phục trạng thái tra cứu từ URL query khi người dùng mở liên kết được chia sẻ.
 - [x] **Trạng thái tải dữ liệu:** Hiển thị trạng thái giao diện rõ ràng khi đang tải dữ liệu, khi không có kết quả và khi lỗi tải JSON.
 - [x] **Trải nghiệm responsive:** Giao diện responsive, nhẹ và tối ưu cho thao tác tra cứu nhanh trên desktop lẫn thiết bị di động.
-- [ ] **GitHub Pages:** Repository `NgocHung-Ya/termdex` ở chế độ public; workflow `.github/workflows/pages.yml` triển khai các tệp website tĩnh khi có push vào `main`, với artifact từ `index.html`, `assets/`, `css/`, `data/` và `js/`; xuất bản tại `https://ngochung-ya.github.io/termdex/`.
+- [x] **GitHub Pages:** Repository `NgocHung-Ya/termdex` ở chế độ public; workflow `.github/workflows/pages.yml` triển khai các tệp website tĩnh khi có push vào `main`, với artifact từ `index.html`, `assets/`, `css/`, `data/` và `js/`; xuất bản tại `https://ngochung-ya.github.io/termdex/`.

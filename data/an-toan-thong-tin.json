@@ -1,0 +1,9 @@
+{
+  "meta": { "category": "An toàn thông tin", "updated": "2026-11-15" },
+  "items": [
+    { "id": "security-encryption", "title": "Encryption", "category": "An toàn thông tin", "tags": ["bảo mật", "dữ liệu"], "content": "Quá trình biến dữ liệu thành dạng khó đọc nếu không có khóa phù hợp, nhằm bảo vệ thông tin khi lưu trữ hoặc truyền đi.", "example": "HTTPS mã hóa dữ liệu giữa trình duyệt và website." },
+    { "id": "security-mfa", "title": "MFA", "category": "An toàn thông tin", "tags": ["bảo mật", "tài khoản"], "content": "Xác thực đa yếu tố yêu cầu từ hai bằng chứng độc lập trở lên để xác nhận danh tính khi đăng nhập.", "example": "Ngoài mật khẩu, người dùng nhập mã một lần từ ứng dụng xác thực." },
+    { "id": "security-oauth", "title": "OAuth 2.0", "category": "An toàn thông tin", "tags": ["bảo mật", "đăng nhập", "web"], "content": "Chuẩn ủy quyền cho phép ứng dụng truy cập có giới hạn vào tài nguyên thay mặt người dùng mà không cần chia sẻ mật khẩu của họ.", "example": "Bạn cấp quyền cho ứng dụng xem lịch mà không gửi mật khẩu tài khoản." },
+    { "id": "security-zero-trust", "title": "Zero trust", "category": "An toàn thông tin", "tags": ["bảo mật", "mạng"], "content": "Mô hình bảo mật không mặc định tin cậy bất kỳ người dùng hay thiết bị nào; mỗi yêu cầu cần được xác minh theo ngữ cảnh và quyền hạn.", "example": "Nhân viên có thể cần xác thực lại trước khi truy cập hệ thống nhạy cảm." }
+  ]
+}

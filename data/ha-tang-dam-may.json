@@ -1,0 +1,9 @@
+{
+  "meta": { "category": "Hạ tầng & đám mây", "updated": "2026-11-15" },
+  "items": [
+    { "id": "cloud-backup", "title": "Backup", "category": "Hạ tầng & đám mây", "tags": ["dữ liệu", "khôi phục"], "content": "Bản sao dự phòng của dữ liệu hoặc hệ thống, được tạo để có thể khôi phục khi xảy ra mất mát hay sự cố.", "example": "Lưu backup ở một nơi độc lập để giảm rủi ro khi máy chủ chính hỏng." },
+    { "id": "cloud-cloud-computing", "title": "Cloud computing", "category": "Hạ tầng & đám mây", "tags": ["hạ tầng", "hosting"], "content": "Cách sử dụng tài nguyên máy tính như máy chủ, lưu trữ và cơ sở dữ liệu qua Internet, thường có thể tăng giảm theo nhu cầu.", "example": "Một nhóm triển khai ứng dụng lên cloud thay vì tự mua máy chủ vật lý." },
+    { "id": "cloud-database", "title": "Database", "category": "Hạ tầng & đám mây", "tags": ["dữ liệu", "lưu trữ"], "content": "Hệ thống lưu trữ, tổ chức và truy xuất dữ liệu. Database thường hỗ trợ cập nhật có kiểm soát và truy vấn linh hoạt.", "example": "Website thương mại lưu thông tin đơn hàng trong database." },
+    { "id": "cloud-static-hosting", "title": "Static hosting", "category": "Hạ tầng & đám mây", "tags": ["hosting", "tĩnh"], "content": "Dịch vụ phân phối các tệp website tĩnh. Phù hợp với trang giới thiệu, tài liệu, blog tĩnh và công cụ tra cứu chạy trên trình duyệt.", "example": "GitHub Pages có thể host một trang HTML cùng tệp JSON mà không cần backend." }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "meta": { "category": "Web & Internet", "updated": "2026-11-15" },
+  "items": [
+    { "id": "web-cdn", "title": "CDN", "category": "Web & Internet", "tags": ["tốc độ", "hạ tầng"], "content": "Mạng lưới máy chủ phân tán, lưu bản sao nội dung ở gần người dùng để website tải nhanh và ổn định hơn.", "example": "Ảnh trên trang được phục vụ từ máy chủ CDN gần khu vực của bạn." },
+    { "id": "web-dns", "title": "DNS", "category": "Web & Internet", "tags": ["mạng", "tên miền"], "content": "Hệ thống phân giải tên miền thành địa chỉ IP mà máy tính dùng để tìm đúng máy chủ trên Internet.", "example": "DNS giúp trình duyệt tìm máy chủ khi bạn nhập example.com." },
+    { "id": "web-github-pages", "title": "GitHub Pages", "category": "Web & Internet", "tags": ["hosting", "tĩnh", "github"], "content": "Dịch vụ hosting tĩnh miễn phí của GitHub, có thể xuất bản website HTML, CSS, JavaScript và dữ liệu JSON trực tiếp từ repository.", "example": "Push file index.html lên nhánh được chọn để website tự cập nhật." },
+    { "id": "web-http", "title": "HTTP / HTTPS", "category": "Web & Internet", "tags": ["mạng", "bảo mật", "web"], "content": "Giao thức trình duyệt dùng để trao đổi dữ liệu với website. HTTPS bổ sung mã hóa TLS, giúp bảo vệ dữ liệu trên đường truyền.", "example": "Biểu tượng ổ khóa cho biết trình duyệt đang kết nối bằng HTTPS." },
+    { "id": "web-json", "title": "JSON", "category": "Web & Internet", "tags": ["dữ liệu", "tệp", "web"], "content": "Định dạng văn bản gọn để biểu diễn dữ liệu có cấu trúc bằng cặp khóa–giá trị và danh sách; con người dễ đọc, chương trình dễ phân tích.", "example": "Website có thể tải data.json để hiển thị danh sách sản phẩm hoặc thuật ngữ." },
+    { "id": "web-static-site", "title": "Static site", "category": "Web & Internet", "tags": ["tĩnh", "hosting", "web"], "content": "Website được phục vụ từ các tệp dựng sẵn như HTML, CSS, JavaScript và ảnh; không cần máy chủ tạo trang riêng cho từng yêu cầu.", "example": "Một trang tra cứu đọc dữ liệu JSON có thể chạy hoàn toàn trên hosting tĩnh." }
+  ]
+}

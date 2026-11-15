@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Termdex">
+  <rect width="64" height="64" rx="4" fill="#103e32"/>
+  <path d="M13 15h38v34H13z" fill="none" stroke="#e8c05a" stroke-width="2"/>
+  <path d="M20 22h9v9h-9zM35 22h9v9h-9zM20 37h9v9h-9z" fill="#edf3ee"/>
+  <path d="M35 37h9v9h-9z" fill="#e8c05a"/>
+</svg>

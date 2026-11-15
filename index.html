@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#103e32">
+    <meta name="description" content="Từ điển công nghệ tiếng Việt — tra cứu thuật ngữ nhanh, rõ ràng và dễ chia sẻ.">
+    <title>Termdex — Từ điển công nghệ</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/termdex-mark.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#tu-dien">Bỏ qua phần giới thiệu</a>
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <span class="utility-note"><span class="live-dot" aria-hidden="true"></span> Cẩm nang công nghệ mở</span>
+        <div class="utility-links" aria-label="Thông tin dự án">
+          <span>Dữ liệu JSON</span><span class="utility-divider" aria-hidden="true"></span>
+          <span>Không cần máy chủ</span><span class="utility-divider" aria-hidden="true"></span>
+          <span>Sẵn sàng cho GitHub Pages</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell nav-inner">
+        <a class="brand" href="./" aria-label="Termdex — Trang chủ">
+          <img src="./assets/termdex-mark.svg" alt="" width="42" height="42">
+          <span class="brand-copy"><strong>TERM<span>DEX</span></strong><small>TỪ ĐIỂN CÔNG NGHỆ</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Điều hướng chính">
+          <a href="#tu-dien">Từ điển</a>
+          <a href="#chu-de">Chủ đề</a>
+          <a href="#cap-nhat">Cách cập nhật</a>
+        </nav>
+        <a class="nav-cta" href="#tu-dien">Tra cứu thuật ngữ <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-texture" aria-hidden="true"></div>
+        <div class="shell hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> NGÔN NGỮ CỦA CÔNG NGHỆ</p>
+            <h1 id="hero-title">Hiểu công nghệ.<br><span>Không cần đoán.</span></h1>
+            <p class="hero-description">Tra nhanh thuật ngữ, nắm đúng ý nghĩa và xem cách dùng trong thực tế — bằng tiếng Việt dễ hiểu.</p>
+            <div class="hero-actions">
+              <a class="button button-gold" href="#tu-dien">Bắt đầu tra cứu <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#cap-nhat">Dữ liệu được tổ chức thế nào? <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+            <div class="code-window">
+              <div class="window-top"><span></span><span></span><span></span><small>thuật-ngữ.json</small></div>
+              <div class="code-lines"><p><i>01</i> <b>{</b></p><p><i>02</i> &nbsp;<em>"term"</em>: <strong>"API"</strong>,</p><p><i>03</i> &nbsp;<em>"nghĩa"</em>: <strong>"Cầu nối phần mềm"</strong>,</p><p><i>04</i> &nbsp;<em>"ví_dụ"</em>: <strong>"Gọi dữ liệu thời tiết"</strong></p><p><i>05</i> <b>}</b></p></div>
+              <div class="code-stamp"><span class="stamp-mark">{ }</span><span>NHỎ GỌN<br><strong>DỄ TRA CỨU</strong></span></div>
+            </div>
+            <div class="visual-caption"><span class="caption-rule"></span> MỞ FILE JSON. TÌM ĐIỀU BẠN CẦN.</div>
+          </div>
+        </div>
+        <div class="hero-bottom-rule" aria-hidden="true"></div>
+      </section>
+
+      <section class="lookup-wrap shell" id="tu-dien" aria-labelledby="lookup-title">
+        <div class="lookup-panel">
+          <div class="lookup-heading">
+            <div>
+              <p class="section-kicker">TRA CỨU TỨC THÌ</p>
+              <h2 id="lookup-title">Tìm một thuật ngữ</h2>
+            </div>
+            <p class="lookup-note">Không phân biệt dấu · Hỗ trợ gõ sai nhẹ</p>
+          </div>
+          <form class="search-form" id="search-form" role="search">
+            <label class="search-box" for="search-input">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.4 4.4"></path></svg>
+              <input id="search-input" name="q" type="search" placeholder="Thử “API”, “bảo mật” hoặc “đám mây”…" autocomplete="off" aria-label="Tìm thuật ngữ">
+              <kbd>/</kbd>
+            </label>
+            <label class="select-label" for="category-select">
+              <span>CHỦ ĐỀ</span>
+              <select id="category-select" name="cat"><option value="">Tất cả chủ đề</option></select>
+            </label>
+            <button class="button button-gold search-submit" type="submit">Tìm kiếm <span aria-hidden="true">→</span></button>
+          </form>
+          <div class="search-footer"><span><span class="mini-spark" aria-hidden="true">✳</span> Gõ từ khóa hoặc chọn chủ đề</span><span id="dataset-status">Đang nạp dữ liệu…</span></div>
+        </div>
+      </section>
+
+      <section class="catalog-section shell" aria-labelledby="catalog-title">
+        <div class="catalog-intro">
+          <div>
+            <p class="section-kicker">BỘ SƯU TẬP THUẬT NGỮ</p>
+            <h2 id="catalog-title">Kiến thức, <span>gọn trong tầm tay.</span></h2>
+          </div>
+          <p class="catalog-summary">Tìm kiếm theo từ khóa, lọc theo chủ đề hoặc chọn một thẻ để đi sâu hơn.</p>
+        </div>
+
+        <div class="catalog-layout">
+          <div class="results-column">
+            <div class="filter-row">
+              <div class="category-pills" id="category-pills" aria-label="Lọc theo chủ đề"></div>
+              <label class="sort-control" for="sort-select"><span>SẮP XẾP</span><select id="sort-select"><option value="az">A → Z</option><option value="za">Z → A</option></select></label>
+            </div>
+            <div class="result-bar"><p id="results-count" aria-live="polite">Đang chuẩn bị tra cứu…</p><button id="clear-filters" class="clear-button" type="button" hidden>Xóa bộ lọc <span aria-hidden="true">×</span></button></div>
+            <div class="term-list" id="term-list" aria-live="polite" aria-busy="true"></div>
+            <div class="state-panel" id="state-panel" hidden></div>
+          </div>
+
+          <aside class="catalog-aside" id="chu-de" aria-label="Khám phá chủ đề">
+            <section class="aside-card topic-card">
+              <div class="aside-title"><span class="aside-icon" aria-hidden="true">⌘</span><div><p class="section-kicker">KHÁM PHÁ</p><h3>Thẻ phổ biến</h3></div></div>
+              <p class="aside-description">Một lối tắt nhỏ để tìm đúng nhánh kiến thức.</p>
+              <div class="tag-cloud" id="popular-tags"></div>
+            </section>
+            <section class="aside-card data-card" id="cap-nhat">
+              <p class="section-kicker">TĨNH, NHƯNG LUÔN CẬP NHẬT</p>
+              <h3>Mỗi thuật ngữ<br>là một mẩu JSON.</h3>
+              <p>Không backend, không database. Dữ liệu nằm ngay trong repository — dễ đọc, dễ sửa, dễ kiểm soát phiên bản.</p>
+              <a href="./README.md" class="aside-link">Xem cách cập nhật <span aria-hidden="true">↗</span></a>
+              <div class="data-card-mark" aria-hidden="true">{ }</div>
+            </section>
+            <div class="aside-footnote"><span class="live-dot" aria-hidden="true"></span> Bộ dữ liệu mẫu · 5 chủ đề · tiếng Việt</div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="bottom-band" aria-label="Thông tin nền tảng">
+        <div class="shell bottom-inner"><p><span class="bottom-mark">T</span> TỪ ĐIỂN MỞ, DÀNH CHO NGƯỜI LUÔN MUỐN HIỂU THÊM.</p><a href="#tu-dien">Quay lại tra cứu ↑</a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-inner"><a class="brand footer-brand" href="./"><img src="./assets/termdex-mark.svg" alt="" width="34" height="34"><span class="brand-copy"><strong>TERM<span>DEX</span></strong><small>TRA CỨU, KHÔNG ĐOÁN.</small></span></a><p>Website tĩnh · Vanilla JS · Dữ liệu JSON</p><span>© <span id="current-year"></span> Termdex</span></div></footer>
+    <div class="sr-only" id="announcer" role="status" aria-live="polite"></div>
+  </body>
+</html>

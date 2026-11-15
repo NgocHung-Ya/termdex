@@ -1,0 +1,9 @@
+{
+  "meta": { "category": "Lập trình", "updated": "2026-11-15" },
+  "items": [
+    { "id": "code-api", "title": "API", "category": "Lập trình", "tags": ["tích hợp", "web"], "content": "Giao diện lập trình ứng dụng — một bộ quy tắc để các phần mềm trao đổi dữ liệu hoặc yêu cầu chức năng với nhau.", "example": "Ứng dụng thời tiết gọi API để lấy dự báo mới nhất." },
+    { "id": "code-dom", "title": "DOM", "category": "Lập trình", "tags": ["javascript", "web"], "content": "Mô hình cây mà trình duyệt tạo từ HTML. JavaScript có thể đọc và thay đổi các phần tử trên trang thông qua DOM.", "example": "Khi bấm nút, JavaScript cập nhật nội dung trong DOM mà không tải lại trang." },
+    { "id": "code-framework", "title": "Framework", "category": "Lập trình", "tags": ["phát triển", "mã nguồn"], "content": "Bộ khung gồm cấu trúc và công cụ có sẵn giúp xây dựng phần mềm theo một cách nhất quán, thay vì bắt đầu từ con số không.", "example": "Một framework web cung cấp sẵn cách tổ chức trang, điều hướng và dữ liệu." },
+    { "id": "code-git", "title": "Git", "category": "Lập trình", "tags": ["mã nguồn", "phiên bản"], "content": "Hệ thống quản lý phiên bản phân tán, ghi lại lịch sử thay đổi của tệp và hỗ trợ nhiều người cùng làm trên một dự án.", "example": "Dùng Git để xem ai đã sửa một dòng mã và khôi phục phiên bản trước." }
+  ]
+}

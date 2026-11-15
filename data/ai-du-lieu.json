@@ -1,0 +1,9 @@
+{
+  "meta": { "category": "AI & dữ liệu", "updated": "2026-11-15" },
+  "items": [
+    { "id": "ai-embedding", "title": "Embedding", "category": "AI & dữ liệu", "tags": ["AI", "tìm kiếm", "dữ liệu"], "content": "Cách biểu diễn văn bản, hình ảnh hoặc dữ liệu thành một dãy số để máy tính so sánh mức độ tương đồng về ý nghĩa.", "example": "Hai câu hỏi khác từ nhưng cùng ý có thể có embedding gần nhau." },
+    { "id": "ai-llm", "title": "LLM", "category": "AI & dữ liệu", "tags": ["AI", "ngôn ngữ"], "content": "Mô hình ngôn ngữ lớn được huấn luyện trên lượng văn bản lớn để hiểu và tạo ra ngôn ngữ tự nhiên.", "example": "Một chatbot có thể dùng LLM để tóm tắt tài liệu hoặc trả lời câu hỏi." },
+    { "id": "ai-machine-learning", "title": "Machine learning", "category": "AI & dữ liệu", "tags": ["AI", "mô hình"], "content": "Nhánh của trí tuệ nhân tạo trong đó máy tính học quy luật từ dữ liệu để dự đoán hoặc đưa ra quyết định, thay vì chỉ làm theo quy tắc viết sẵn.", "example": "Mô hình học từ lịch sử giao dịch để nhận diện giao dịch bất thường." },
+    { "id": "ai-prompt", "title": "Prompt", "category": "AI & dữ liệu", "tags": ["AI", "ngôn ngữ"], "content": "Chỉ dẫn hoặc câu hỏi được gửi cho mô hình AI để định hướng nội dung và cách thức phản hồi.", "example": "Prompt nêu rõ vai trò, mục tiêu và định dạng mong muốn thường cho kết quả hữu ích hơn." }
+  ]
+}

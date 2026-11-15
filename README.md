@@ -1,6 +1,12 @@
 # Termdex
 
-Từ điển thuật ngữ công nghệ tiếng Việt, chạy hoàn toàn trên trình duyệt. Không backend, không cơ sở dữ liệu và không cần bước build.
+Từ điển thuật ngữ công nghệ tiếng Việt, chạy hoàn toàn trên trình duyệt. Không backend, không cơ sở dữ liệu và không cần bước build cho ứng dụng.
+
+## GitHub Pages
+
+Repository được cấu hình xuất bản bằng GitHub Actions. Workflow tại `.github/workflows/pages.yml` chạy khi có push lên `main`, gom các tệp website vào artifact tĩnh rồi triển khai lên Pages. Website công khai tại <https://ngochung-ya.github.io/termdex/>.
+
+Workflow chỉ đưa `index.html`, `assets/`, `css/`, `data/` và `js/` lên website. Các tệp hướng dẫn và cấu hình repository không được xuất bản cùng trang.
 
 ## Chạy thử trên máy
 
@@ -11,15 +17,6 @@ python3 -m http.server 8000
 ```
 
 Mở `http://localhost:8000`. Không mở `index.html` trực tiếp bằng `file://`, vì trình duyệt chặn `fetch()` tệp JSON theo cách đó.
-
-## Đăng lên GitHub Pages
-
-1. Đưa toàn bộ các tệp trong repository lên nhánh `main` (hoặc nhánh bạn muốn dùng).
-2. Trong repository, mở **Settings → Pages**.
-3. Ở **Build and deployment**, chọn **Deploy from a branch**, nhánh `main`, thư mục `/ (root)`, rồi lưu.
-4. Chờ GitHub Pages công bố địa chỉ website. Mỗi lần cập nhật và push các tệp JSON, trang sẽ lấy dữ liệu mới.
-
-Trang dùng đường dẫn tương đối, vì vậy có thể chạy tại domain gốc hoặc URL dạng `username.github.io/repository/`.
 
 ## Cấu trúc dữ liệu
 
@@ -40,9 +37,9 @@ Ví dụ:
 }
 ```
 
-Để thêm một tệp chủ đề mới, đặt tệp trong `data/` rồi thêm tên tệp vào mảng `files` của `data/index.json`. Nếu chỉ thêm mục vào tệp sẵn có, không cần đổi mã giao diện.
+Để thêm một tệp chủ đề mới, đặt tệp trong `data/` rồi thêm tên tệp vào mảng `files` của `data/index.json`. Nếu chỉ thêm mục vào tệp sẵn có, không cần đổi mã giao diện. Lưu thay đổi và push lên `main`; workflow sẽ xuất bản bản cập nhật.
 
-## Tính năng hiện có
+## Tính năng
 
 - Tìm kiếm tức thì có debounce, không phân biệt dấu và chịu được một số lỗi gõ nhẹ.
 - Lọc đồng thời theo chủ đề và thẻ.
